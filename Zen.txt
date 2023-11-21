@@ -25,6 +25,7 @@ Zen of Python
 23.Complex is better than complicated.
 24.Flat is better than nested.
 25.Sparse is better than dense.
+34.Now is better than never.
 35. This is line #35.
 43.Sparse is better than dense.
 47.Errors should never pass silently.
