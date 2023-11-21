@@ -25,3 +25,4 @@ Zen of Python
 23.Complex is better than complicated.
 24
 25
+45.Special cases aren't special enough to break the rules.
