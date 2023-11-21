@@ -27,3 +27,4 @@ Zen of Python
 25.Sparse is better than dense.
 35. This is line #35.
 43.Sparse is better than dense.
+47.Errors should never pass silently.
