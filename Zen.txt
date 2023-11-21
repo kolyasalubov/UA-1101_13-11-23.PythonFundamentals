@@ -27,7 +27,11 @@ Zen of Python
 25.Sparse is better than dense.
 34.Now is better than never.
 35. This is line #35.
+<<<<<<< HEAD
 38. Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
+=======
+40.Simple is better than complex.
+>>>>>>> main
 43.Sparse is better than dense.
 47.Errors should never pass silently.
 54.If the implementation is hard to explain, it's a bad idea.
