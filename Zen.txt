@@ -27,10 +27,10 @@ Zen of Python
 25.Sparse is better than dense.
 34.Now is better than never.
 35. This is line #35.
+36. If the implementation is hard to explain, it's a bad idea.
 40.Simple is better than complex.
 43.Sparse is better than dense.
 45.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
 54.If the implementation is hard to explain, it's a bad idea.
-24
-25
+
