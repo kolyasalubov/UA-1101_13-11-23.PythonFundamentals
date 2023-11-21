@@ -171,6 +171,7 @@ __pycache__/
 # C extensions
 *.so
 
+
 # Distribution / packaging
 .Python
 build/
@@ -380,3 +381,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudiocode,windows,linux,macos
+
+#PyCharm config gile
+*.idea/.gitignore
+*.idea/UA-1101_13-11-23.PythonFundamentals.iml
+*.idea/inspectionProfiles/Project_Default.xml
+*.idea/inspectionProfiles/profiles_settings.xml
+*.idea/misc.xml
+*.idea/modules.xml
+*.idea/vcs.xml
