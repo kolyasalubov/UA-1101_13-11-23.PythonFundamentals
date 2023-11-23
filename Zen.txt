@@ -46,3 +46,4 @@ Zen of Python
 45.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
 54.If the implementation is hard to explain, it's a bad idea.
+55.If the implementation is easy to explain, it may be a good idea.
