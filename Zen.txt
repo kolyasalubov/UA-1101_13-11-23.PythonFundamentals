@@ -45,4 +45,5 @@ Zen of Python
 43.Sparse is better than dense.
 45.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
+50.In the face of ambiguity, refuse the temptation to guess.
 54.If the implementation is hard to explain, it's a bad idea.
