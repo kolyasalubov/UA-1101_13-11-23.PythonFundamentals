@@ -45,5 +45,6 @@ Zen of Python
 43.Sparse is better than dense.
 45.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
+48.Unless explicitly silenced.
 54.If the implementation is hard to explain, it's a bad idea.
 56.Namespaces are one honking great idea -- let's do more of those!
