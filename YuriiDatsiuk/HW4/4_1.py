@@ -1,4 +1,4 @@
-temp_cels_user = int(input("Enter temperature in Celsius to convert to Fahrenheit\n"))
+temp_cels_user = float(input("Enter temperature in Celsius to convert to Fahrenheit\n"))
 
 min_temp = -273.15
 
