@@ -34,16 +34,16 @@ def findAll(word):
 
 # or:
 # def findAll(word):
-  zen_ch = zen
-  count = 0
-  while True:
-    pos = zen_ch.find(word)
-    if pos == -1:
-      break
-    if pos:
-      count += 1
-    zen_ch = zen_ch[pos + len(word):]
-  return count
+#   zen_ch = zen
+#   count = 0
+#   while True:
+#     pos = zen_ch.find(word)
+#     if pos == -1:
+#       break
+#     if pos:
+#       count += 1
+#     zen_ch = zen_ch[pos + len(word):]
+#   return count
 
 
 for w in ['better', 'never', 'is']:
