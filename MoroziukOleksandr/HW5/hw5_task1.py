@@ -1,4 +1,3 @@
-# https://www.tutorialspoint.com/generating-random-number-list-in-python
 import random
 
 # Generate 5 random numbers between 10 and 30
