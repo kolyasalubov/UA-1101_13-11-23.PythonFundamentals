@@ -1,5 +1,5 @@
 ###############
-# Solution №1 - in this scenario we can't access the result of user's input, but the code is less
+# Solution №1 - in this scenario we can't access the result of user's input, but the code is shorter
 ###############
 
 # while input("Enter your login: ") != "First":
