@@ -59,10 +59,10 @@ Temporary Items
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.idea.idea/misc.xml
 # AWS User-specific
 .idea/**/aws.xml
-
+.idea/UA-1101_13-11-23.PythonFundamentals.iml
 # Generated files
 .idea/**/contentModel.xml
 
