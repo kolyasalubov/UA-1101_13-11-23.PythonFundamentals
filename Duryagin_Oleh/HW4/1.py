@@ -5,3 +5,18 @@ if tmp_c < -273.15:
       print('Error: Temperature below absolute zero (-273.15°C)')
 else:
       print(f'{tmp_c}°C is equivalent to {tmp_f}°F')
+
+
+number_0 = 100
+
+
+
+
+
+
+
+
+
+
+
+
