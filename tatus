@@ -1,0 +1,393 @@
+[33mcommit 79e66f9cce05a367b143c6ef3d57283630c056ae[m[33m ([m[1;36mHEAD -> [m[1;32mHeraMyroslava/HW5[m[33m)[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sun Dec 3 15:13:31 2023 +0200
+
+    added task
+
+[33mcommit 99c938f9656d626d1c5490065c6e122811442b4a[m[33m ([m[1;31morigin/HeraMyroslava/HW5[m[33m)[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sun Dec 3 15:09:56 2023 +0200
+
+    added task
+
+[33mcommit b9add0c0b4094aacbe50821319b7b88aa1277c02[m[33m ([m[1;31morigin/HeraMyroslava/HW4[m[33m, [m[1;32mHeraMyroslava/HW6[m[33m, [m[1;32mHeraMyroslava/HW4[m[33m)[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sun Nov 26 17:09:20 2023 +0200
+
+    added folder HW4
+
+[33mcommit f6e0b0b413292d7abffcfd1adcc0f98e38df9e83[m[33m ([m[1;32mHeraMyroslava/HW3[m[33m)[m
+Merge: d46053c d8cca6a
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sun Nov 26 14:56:57 2023 +0200
+
+    Merge branch 'main' of https://github.com/kolyasalubov/UA-1101_13-11-23.PythonFundamentals into HeraMyroslava/HW3
+
+[33mcommit d46053c1ac1f50a07c455f001d57a605e821f6cb[m[33m ([m[1;31morigin/HeraMyroslava/HW3[m[33m)[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sun Nov 26 14:47:36 2023 +0200
+
+    added changes
+
+[33mcommit d8cca6ac96468586869658f72fb471b3728ab13b[m
+Author: Michael <michaelpost1984@gmail.com>
+Date:   Sat Nov 25 18:07:39 2023 +0200
+
+    Added 48th line (task 2)
+
+[33mcommit c287efd30712028e10681a19004faa3b99f129bd[m
+Author: Mochula <oleksandr.mochula@gmail.com>
+Date:   Sat Nov 25 16:58:24 2023 +0200
+
+    added line 56(task2)
+
+[33mcommit 93a96c29a912840b981e82aa50dc627ee3dcd885[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Sat Nov 25 00:13:01 2023 +0200
+
+    create HW3
+
+[33mcommit 0527e744e625c97dfb2871386c4a8c8f5a3c4cf5[m
+Merge: bb50b43 e6110fd
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Fri Nov 24 15:16:29 2023 +0200
+
+    Merge branch 'main' of https://github.com/kolyasalubov/UA-1101_13-11-23.PythonFundamentals
+
+[33mcommit e6110fd056ae222402f38d2ff1114113827bc55d[m
+Merge: 76d5bc6 f2fd561
+Author: Michael <michaelpost1984@gmail.com>
+Date:   Fri Nov 24 12:47:36 2023 +0200
+
+    Merge branch 'main' of https://github.com/kolyasalubov/UA-1101_13-11-23.PythonFundamentals
+
+[33mcommit 76d5bc696dc383a954921be0eb8725740c94b898[m
+Author: Michael <michaelpost1984@gmail.com>
+Date:   Fri Nov 24 12:37:41 2023 +0200
+
+    Added line 17 for task 1
+
+[33mcommit bb50b437685b00d1fc2e22e459f95bce44b9c015[m
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Thu Nov 23 19:54:45 2023 +0200
+
+    created folder AntonRedko
+
+[33mcommit 49e89c478e063c32ae39bf7d640faf1370a5c788[m
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Thu Nov 23 19:12:36 2023 +0200
+
+    Recreated HW2.png
+
+[33mcommit 7a2a95e73853261e146986b27a22db045f9f44e2[m
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Thu Nov 23 18:31:55 2023 +0200
+
+    Added HW2.png
+
+[33mcommit f2fd561cd4d1763d1d8add186f05723942b568f8[m
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Thu Nov 23 17:36:42 2023 +0200
+
+    Edited my line
+
+[33mcommit 6c6a6942bc067d43efedfee659a47ffb449b0cc5[m
+Author: Anton Redko <antonredko00@gmail.com>
+Date:   Thu Nov 23 17:08:16 2023 +0200
+
+    Added my line
+
+[33mcommit b4f61e9e75ee056d718bccca73f3565aed582539[m
+Merge: ba2d7c1 68a527e
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Wed Nov 22 19:20:43 2023 +0200
+
+    resolv conflict
+
+[33mcommit ba2d7c15733f2f54c1ef6be6598eed01203af037[m
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Wed Nov 22 19:12:11 2023 +0200
+
+    delete main
+
+[33mcommit 68a527efce08bb0a0b579cb02f62beea1b4872ff[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Nov 22 18:27:18 2023 +0200
+
+    delete HW2
+
+[33mcommit 8ef59cb1d8612bc990539b84d37d4ef068cdc676[m
+Merge: 74095f3 3f2443e
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Wed Nov 22 18:18:27 2023 +0200
+
+    Merge pull request #2 from kolyasalubov/KoliasaLiubov/HW2
+    
+    KoliasaLiubovHW2
+
+[33mcommit 3f2443ee956eddf534ed2da5f7e2adb047531dc7[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Nov 22 18:14:08 2023 +0200
+
+    added file git_game.png
+
+[33mcommit 74095f32a6dfbfc44f2f30a4cd1908d3777f1ce1[m
+Merge: b58fcb6 948a434
+Author: Yura T <yu.tymchuk@gmail.com>
+Date:   Wed Nov 22 14:29:31 2023 +0200
+
+    Merge branch 'YuTymchuk/HW2'
+
+[33mcommit b58fcb689f7fe8870a70620169addd46444e4e5f[m
+Merge: 4bcb3ef 2bb7a2e
+Author: Anton Volokhov <volokhov.a@me.com>
+Date:   Wed Nov 22 13:23:42 2023 +0200
+
+    Merge branch 'VolokhovAnton/HW2'
+
+[33mcommit 948a434a1011a25218cceb9ee0aecc73bbb516bc[m
+Author: Yura T <yu.tymchuk@gmail.com>
+Date:   Wed Nov 22 13:08:16 2023 +0200
+
+    Added statement #32
+
+[33mcommit 2bb7a2e6963477d4084ccf1b8cd5705324df288b[m
+Author: Anton Volokhov <volokhov.a@me.com>
+Date:   Wed Nov 22 12:07:59 2023 +0200
+
+    added line 39 in Zen.txt
+
+[33mcommit 4bcb3ef90325bfb8d942173bf7ccf7321d765759[m
+Merge: 9334aa4 70ccb20
+Author: Alona <63323474+alona-ruda@users.noreply.github.com>
+Date:   Wed Nov 22 00:58:21 2023 +0200
+
+    Merge pull request #1 from kolyasalubov/KachanAlona/HW2
+    
+    Kachan alona/hw2
+
+[33mcommit 70ccb20e513e1f94e646d9c8a42c37a37ea0e017[m
+Author: Alona <63323474+alona-ruda@users.noreply.github.com>
+Date:   Wed Nov 22 00:54:29 2023 +0200
+
+    Sorted list
+
+[33mcommit e0950347a3f1961112029e8eb9f983f84add4a9d[m
+Merge: 58983f2 9334aa4
+Author: Alona <63323474+alona-ruda@users.noreply.github.com>
+Date:   Wed Nov 22 00:52:50 2023 +0200
+
+    Merge branch 'main' of github.com:kolyasalubov/UA-1101_13-11-23.PythonFundamentals into KachanAlona/HW2
+
+[33mcommit 58983f24f64b470932ebe5a6b14f82cd3910f3c4[m
+Author: Alona <63323474+alona-ruda@users.noreply.github.com>
+Date:   Wed Nov 22 00:52:22 2023 +0200
+
+    Added #36
+
+[33mcommit 7b2a49ad2eb101a0c105bdfa7e61269e42abafc0[m
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Wed Nov 22 00:14:25 2023 +0200
+
+    added line 38(task 2)
+
+[33mcommit 9334aa4588a0d9fb631d508108a5b077447030ff[m
+Merge: da353a2 c2f1075
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Wed Nov 22 00:00:42 2023 +0200
+
+    merged master fixed conflict
+
+[33mcommit 3d89f70c4842f9bfd692c8c8c839972efe3596b7[m
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Tue Nov 21 23:56:35 2023 +0200
+
+    added new line 38(task 2)
+
+[33mcommit c2f1075ea6c1ff99b207d9f5fbfb09331b06b194[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Tue Nov 21 23:43:39 2023 +0200
+
+    added line 45 (HW2)
+
+[33mcommit da353a2b31ab9585ea4de0f06f1b71c25a9141cb[m[33m ([m[1;31morigin/AltuhovMaxym/HW2[m[33m)[m
+Author: Maxym <maltuhov0@gmail.com>
+Date:   Tue Nov 21 23:23:54 2023 +0200
+
+    added new line
+
+[33mcommit cc6461482cb4604072e8deb26b1a371bf90c630d[m[33m ([m[1;31morigin/PatraySofia/HW2[m[33m)[m
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Tue Nov 21 23:13:48 2023 +0200
+
+    added new line 38 (Task 2)
+
+[33mcommit 1c97d1cf223653866b6178e71b182287fe9023dc[m[33m ([m[1;31morigin/DurjaginOleh/hw2[m[33m)[m
+Author: Oleh <oleg.durjagin@gmail.com>
+Date:   Tue Nov 21 21:48:03 2023 +0200
+
+    Added 34 line
+
+[33mcommit a7933c5576aa37c6dec34cf66cca257fe1cd257f[m[33m ([m[1;31morigin/OleksandrMoroziuk/HW2[m[33m)[m
+Author: Oleksandr Moroziuk <86823587+sagittarii90@users.noreply.github.com>
+Date:   Tue Nov 21 18:09:37 2023 +0200
+
+    Add 54 row from original Zen file
+
+[33mcommit 710a9fb2ca836179b4bb2833d48a4de9bfdd61a6[m[33m ([m[1;31morigin/ChernobaiYaroslav/HW2[m[33m)[m
+Author: Chernobai Yaroslav <yaroslavchernobai26@gmail.com>
+Date:   Tue Nov 21 16:11:48 2023 +0200
+
+    added line 47
+
+[33mcommit 3ec0adc68864a6409aa9afecb6ec82ad07d377bb[m[33m ([m[1;31morigin/Riznychokanna/HW2[m[33m)[m
+Author: Anna Riznychok <annariznychok@gmail.com>
+Date:   Tue Nov 21 09:36:22 2023 +0200
+
+    added new line 43.Sparse is better than dense.
+
+[33mcommit 04ec1b5edecb523d958bbb1228884e8978d2114c[m[33m ([m[1;31morigin/HolubetsYustyna/HW2[m[33m)[m
+Author: uU-Uuu <yustyna.holubets@gmail.com>
+Date:   Tue Nov 21 09:13:42 2023 +0200
+
+    Added line 35
+
+[33mcommit 262a1fc8de5cf126dedce34fcbb6c0a0301c161f[m
+Author: yura <kentlutsk@ukr.net>
+Date:   Mon Nov 20 23:02:39 2023 +0200
+
+    21 line
+
+[33mcommit fe1d6630067d9574319d6b30455a6a147ae3e0ed[m
+Author: Sofia <patray.sofia@gmail.com>
+Date:   Mon Nov 20 19:46:51 2023 +0200
+
+    Added 7 line
+
+[33mcommit 1df5022135fb24fc67407a4e0d1584e34942c4c0[m
+Author: Mykhailo Tretiak <mykhailo.tretiak098@gmail.com>
+Date:   Mon Nov 20 17:54:51 2023 +0200
+
+    Fix Zen.txt
+
+[33mcommit 2bef36c3232a2ec40fe37c221d5732ff4305ed4a[m[33m ([m[1;31morigin/KoliasaLiubov/HW2[m[33m)[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Mon Nov 20 17:47:20 2023 +0200
+
+    added new line FFFFFFFFFF(task 2)
+
+[33mcommit 50d7d5c6daa6eb30c7aae9ffc387a7178e04c713[m
+Author: Mochula <oleksandr.mochula@gmail.com>
+Date:   Mon Nov 20 16:47:23 2023 +0200
+
+    added a 25 line
+
+[33mcommit e0c18299f7e4c2c0fce0986c56dcdba8023150c7[m
+Author: Yura T <yu.tymchuk@gmail.com>
+Date:   Mon Nov 20 11:43:07 2023 +0200
+
+    data from YuTumchuk
+
+[33mcommit 83315e033c274156de35cfa60350816f7e9336ac[m
+Author: Maxym <maltuhov0@gmail.com>
+Date:   Sun Nov 19 23:30:59 2023 +0200
+
+    add my own row
+
+[33mcommit 8a0b7234d377098114e1ed79942def6bf5c5cd84[m
+Author: Anton Volokhov <volokhov.a@me.com>
+Date:   Sun Nov 19 22:16:38 2023 +0200
+
+    Added line 8 in Zen.txt
+
+[33mcommit e3e881752cf68af24006d9aa5fca03b40c8c54a9[m
+Author: Pavlo Danylkiv <danylkiv.pavlo@gmail.com>
+Date:   Sat Nov 18 20:19:39 2023 +0200
+
+    added text for line 20
+
+[33mcommit fd4004a79f7dc3f01a85bab6b2d903c2e1f5b440[m
+Merge: cdeb239 60afd2a
+Author: Anna Riznychok <annariznychok@gmail.com>
+Date:   Sat Nov 18 17:21:54 2023 +0200
+
+    Merge branch 'main' of https://github.com/kolyasalubov/UA-1101_13-11-23.PythonFundamentals
+
+[33mcommit cdeb239f3052e70d4159eec3c0762eff2464dd6f[m
+Author: Anna Riznychok <annariznychok@gmail.com>
+Date:   Sat Nov 18 17:19:20 2023 +0200
+
+    In the face of ambiguity, refuse the temptation to guess.
+
+[33mcommit 60afd2ab5f0a0c050000e8e630dfbdfe58f517d0[m
+Author: Oleh <oleg.durjagin@gmail.com>
+Date:   Sat Nov 18 16:46:22 2023 +0200
+
+    added 3-d line
+
+[33mcommit 161d9ff0d1c78093fbe01d26beb554f2e96fc535[m
+Author: uU-Uuu <yustyna.holubets@gmail.com>
+Date:   Fri Nov 17 21:26:31 2023 +0200
+
+    line 4
+
+[33mcommit 5bc701b79c0fa1e0a4ed8478fe75b74c4865f635[m
+Merge: 083231c 2e6b958
+Author: Hryb <gribvalerij6@gmail.com>
+Date:   Thu Nov 16 22:53:02 2023 +0200
+
+    Merge branch 'main' of https://github.com/kolyasalubov/UA-1101_13-11-23.PythonFundamentals
+
+[33mcommit 2e6b958b12f9c743c47d2448a8fb5d0e711b91de[m
+Author: Alona <63323474+alona-ruda@users.noreply.github.com>
+Date:   Thu Nov 16 22:51:05 2023 +0200
+
+    Added 5th line
+
+[33mcommit 083231c12bbed4a3d9f61cd1ef15312156da9073[m
+Author: Hryb <gribvalerij6@gmail.com>
+Date:   Thu Nov 16 22:50:33 2023 +0200
+
+    added 24th line of Zen of Python
+
+[33mcommit ae1a36a86f98122b3c83fb87d8dc46574294d7ab[m
+Author: Myroslava <mirosyagera@gmail.com>
+Date:   Thu Nov 16 00:33:00 2023 +0200
+
+    add line [200~Although that way may not be obvious at first unless you're Dutch.~
+
+[33mcommit 268a81a685cfdcbd9386e04c86e8d4c8b4f947a6[m
+Author: Oleksandr Moroziuk <86823587+sagittarii90@users.noreply.github.com>
+Date:   Wed Nov 15 21:43:31 2023 +0200
+
+    add 23 string
+
+[33mcommit c864e511a90512281695d9156264a622186a77f7[m
+Author: Chernobai Yaroslav <yaroslavchernobai26@gmail.com>
+Date:   Wed Nov 15 19:27:21 2023 +0200
+
+    Update Zen.txt
+
+[33mcommit 4584c10e1ed14f7949873975039afa8d30ca8505[m
+Author: Mykhailo Tretaik <105315251+Mykhailo-Tr@users.noreply.github.com>
+Date:   Wed Nov 15 19:19:40 2023 +0200
+
+    Update Zen.txt
+
+[33mcommit 901200af90189d8b0a3eb094a385972acc6e7cf6[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Nov 15 18:59:45 2023 +0200
+
+    create file .gitignore
+
+[33mcommit 6b7987ebcd84a9b7213c9b4ecb175ca47da33a0e[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Nov 15 18:56:00 2023 +0200
+
+    create file Zen.txt
+
+[33mcommit b0be6d5986c6c00abc799da2cbcb1796b7b08cb6[m
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Wed Nov 15 18:39:14 2023 +0200
+
+    Initial commit
