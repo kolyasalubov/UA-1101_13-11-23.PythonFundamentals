@@ -1,15 +1,15 @@
-import jennySM as jsm
-import distance2points as dist
-import noYelling as ny
-import num2string as n2s
-import reverseWords as rw
-import reverseListOrder as rlo
-import multiples3or5 as m3o5
-import willYouMakeIt as wymi
-import banjo
-import boolean2string as b2s
-import countingSheep as cs
-import isThisMyTail as tail
+import modules.jennySM as jsm
+import modules.distance2points as dist
+import modules.noYelling as ny
+import modules.num2string as n2s
+import modules.reverseWords as rw
+import modules.reverseListOrder as rlo
+import modules.multiples3or5 as m3o5
+import modules.willYouMakeIt as wymi
+import modules.banjo
+import modules.boolean2string as b2s
+import modules.countingSheep as cs
+import modules.isThisMyTail as tail
 
 print("""
 List of tasks:
