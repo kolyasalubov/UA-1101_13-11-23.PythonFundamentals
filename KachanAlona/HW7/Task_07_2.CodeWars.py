@@ -131,6 +131,7 @@ def bool_to_word(boolean):
 
 # XI. Counting sheep
 
+
 def count_sheeps(sheep):
     """Function that counts the number of sheep present in the array (true means present)"""
     # answer = sheep.count(True)
