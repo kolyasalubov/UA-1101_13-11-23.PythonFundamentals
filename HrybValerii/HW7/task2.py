@@ -19,7 +19,8 @@ def circle_area() -> float:
     while True:
         radius = input("Enter the radius: ").strip()
         if is_convertible_float(radius):
-            return round(pi * float(radius) ** 2)
+            answer = pi * float(radius) ** 2
+            return round(answer, 2)
         else:
             print("Radius should be a positive number")
             continue
@@ -33,7 +34,8 @@ def rectangle_area() -> float | int:
         sides = input("Enter the length and width separated by a space: ").strip().split()
         match sides:
             case [length, width] if all([is_convertible_float(param, allow_negative=False) for param in (length, width)]):
-                return length * width
+                answer = float(length) * float(width)
+                return round(answer, 2)
             case _:
                 print("length and width should be two positive numbers separated by a space")
                 continue
@@ -54,8 +56,8 @@ def triangle_area() -> float:
     3)2 sides and agle between them
     '''
     while True:
-        rawinput = input(f'''Enter calculation method and parameters of the triangle: 
-1)enter SSS side1(length) side2(length) side3(length) OR
+        rawinput = input(f'''Enter calculation method and parameters of the triangle, enter: 
+1)SSS side1(length) side2(length) side3(length) OR
 2)height base(length) height(length) OR
 3)SAS angle(degrees) side1(length) side2(length)
 4)ASA angle1(degrees) angle2(degrees) side(length)"
@@ -99,7 +101,8 @@ def main():
     while True:
         shape = input("Choose a shape to calculate area. Either circle, rectangle or triangle: ").strip()
         if shape in available_shapes:
-            print(f'The area of the {shape} is {round(available_shapes[shape](), 2)}')
+            answer = available_shapes[shape]()
+            print(f'The area of the {shape} is {round(answer, 2)}')
             break
         else:
             print('Error: incorrect input')

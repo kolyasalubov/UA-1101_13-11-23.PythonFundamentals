@@ -4,4 +4,4 @@ def char_calculator(string: str) -> dict:
     '''
     return {character: string.count(character) for character in set(string)}
 
-print(char_calculator('hello'))
+# print(char_calculator('hello'))

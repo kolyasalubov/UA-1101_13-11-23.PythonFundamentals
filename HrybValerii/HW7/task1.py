@@ -5,4 +5,3 @@ def comparator(number1: int|float, number2: int|float) -> float|int:
     '''
     return max(number1, number2)
 
-print(comparator(1, 1))
