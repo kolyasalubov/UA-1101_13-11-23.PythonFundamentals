@@ -14,5 +14,3 @@ def triangle_area(base, height):
 def circle_area(radius):
     """calculate the area of circle"""
     return f'{pi*pow(radius, 2):.2f}'
-
-print(circle_area(8))
