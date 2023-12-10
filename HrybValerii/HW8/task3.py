@@ -2,22 +2,20 @@ import re
 
 
 def is_convertible_float(s: str, allow_negative=False) -> bool:
-    '''
+    """
     The function checks whether a string literal can be converted to float.
-    Returns True if the number can be converted and False if not
-    if allow_negative=False the function returns True only for positive numbers
-    '''
+    Returns True if the number can be converted and False if not.
+    If allow_negative=False the function returns True only for positive numbers
+    """
     pattern = r'^' + r'-?' * allow_negative + r'(\d+\.?\d*$|\d*\.?\d+)$'
     return bool(re.search(pattern, s))
 
 
-
 PI = 3.14
 
+
 def circle_area() -> float:
-    '''
-    The function calculates the area of a circle with a given radius.
-    '''
+    """The function calculates the area of a circle with a given radius."""
     while True:
         radius = input("Enter the radius: ").strip()
         if is_convertible_float(radius):
@@ -29,9 +27,7 @@ def circle_area() -> float:
 
 
 def rectangle_area() -> float | int:
-    '''
-    The function calculates the area of a rectangle with a given length and width.
-    '''
+    """The function calculates the area of a rectangle with a given length and width."""
     while True:
         sides = input("Enter the length and width separated by a space: ").strip().split()
         match sides:
@@ -44,9 +40,7 @@ def rectangle_area() -> float | int:
 
 
 def triangle_area() -> float:
-    '''
-    Function calculates area of the triangle with a known base and height
-    '''
+    """Function calculates area of the triangle with a known base and height"""
     while True:
         base = input(f'Enter a base of the triangle (positive number): ').strip()
         height = input(f'Enter a height of thrtriangle (positive number): ').strip()
@@ -74,6 +68,7 @@ def main():
         else:
             print('Error: incorrect input')
             continue
+
 
 if __name__ == "__main__":
     main()
