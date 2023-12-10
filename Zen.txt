@@ -17,7 +17,7 @@ Zen of Python
 15
 16.Although never is often better than *right* now.
 17.If the implementation is hard to exp/lain, it's a bad idea.
-18
+18.Якщо реалізацію легко пояснити, це може бути хорошою ідеєю.
 19
 20.Beautiful is better than ugly.
 21.Explicit is better than implicit. 
@@ -46,6 +46,7 @@ Zen of Python
 45.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
 48.Unless explicitly silenced.
+49.Зіткнувшись з неясністю, відмовтеся від спокуси вгадати.
 52.Now is better than never.
 54.If the implementation is hard to explain, it's a bad idea.
 56.Namespaces are one honking great idea -- let's do more of those!
