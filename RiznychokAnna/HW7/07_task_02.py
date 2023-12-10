@@ -43,7 +43,7 @@ if choice == 1:
      area = _rectangle(float(length), float(width))
      print(f"The area of rectangle is:  {area}")
 elif choice ==2:
-    lenght = input("Proved the base: ")
+    lenght = input("Proved the lenght: ")
     height = input ("Proved the height: ")
     area_t = _traigle(float(lenght), float(height))
     print(f"The area of traigle is:  {area_t}")
