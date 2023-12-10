@@ -1,6 +1,6 @@
 def reverse(st):
     st = st.split()[::-1]
-    st = " ".join(st)
+    st = " ".join()
     return st
 
 print(reverse("gjgj ghgh"))

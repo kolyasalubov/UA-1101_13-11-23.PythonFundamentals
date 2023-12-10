@@ -8,5 +8,4 @@ def solution(number):
         else:
             i+=1
     return y
-print(solution(10))
     
