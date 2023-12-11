@@ -32,12 +32,10 @@ def is_valid_password(password):
     return False
 
 # Get password input from the user
-# Allow the user to enter the password multiple times
-while True:
-    user_password = input("Enter your password: ")
+user_password = input("Enter your password: ")
 
 # Check password validity
-    if is_valid_password(user_password):
-        print("Password is valid!")
-    else:
-        print("Invalid password. Please try again.")
+if is_valid_password(user_password):
+    print("Password is valid!")
+else:
+    print("Invalid password. Please try again.")
