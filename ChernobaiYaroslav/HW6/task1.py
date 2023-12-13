@@ -14,7 +14,7 @@ def lineReturnFromList(numsList: list[int])->str:
     
 #     if number%2 == 0:
 #         evenNums.append(number)
-#     if number%3 == 0:
+#     if number%3 == 0 and number%2 == 1:
 #         oddNumsDivBy3.append(number)
 #     if number%2 != 0 and number%3 != 0:
 #         numsNotDivBy2And3.append(number)
@@ -30,5 +30,5 @@ def lineReturnFromList(numsList: list[int])->str:
 ###############
 
 print(f"Even numbers that are divisible by 2: {lineReturnFromList([number for number in range(1, 11) if number % 2 == 0])}")
-print(f"Odd numbers, which are divisible by 3: {lineReturnFromList([number for number in range(1, 11) if number % 3 == 0])}")
+print(f"Odd numbers, which are divisible by 3: {lineReturnFromList([number for number in range(1, 11) if number % 3 == 0 and number % 2 == 1]) }")
 print(f"Numbers that are not divisible by 2 and 3: {lineReturnFromList([number for number in range(1, 11) if number % 2 != 0 and number % 3 != 0])}")
