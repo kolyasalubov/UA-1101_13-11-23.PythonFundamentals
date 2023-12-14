@@ -34,7 +34,8 @@ while run:
 
     keys = pygame.key.get_pressed()
 
-    # In each case DELTA_STEP is multiplied by the boolean value which becomes 0 when rectangle crosses corresponding border
+    # In each case DELTA_STEP is multiplied by the boolean value,
+    # which becomes 0 when the rectangle crosses a corresponding border
     if keys[pygame.K_LEFT]:
         COORD_X = COORD_X - DELTA_STEP * (COORD_X-DELTA_STEP >= 0)
     if keys[pygame.K_RIGHT]:
@@ -42,7 +43,7 @@ while run:
     if keys[pygame.K_UP]:
         COORD_Y = COORD_Y - DELTA_STEP * (COORD_Y-DELTA_STEP >= 0)
     if keys[pygame.K_DOWN]:
-        COORD_Y = COORD_Y+DELTA_STEP * (COORD_Y+DELTA_STEP + HEIGHT_RECTANGLE <= HEIGHT_DISPLAY)
+        COORD_Y = COORD_Y + DELTA_STEP * (COORD_Y+DELTA_STEP + HEIGHT_RECTANGLE <= HEIGHT_DISPLAY)
 
     gameDisplay.fill(BLACK_COLOR) 
 
