@@ -6,5 +6,6 @@ else:
     result = 1
     for i in range(1, number):
         result = result + i * result
+        # result *= i
 
 print(result)
