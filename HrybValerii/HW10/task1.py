@@ -23,6 +23,7 @@ class Rectangle(Polygon):
     def area(self):
         return self.length * self.height
 
+
 p1 = Rectangle()
 print(p1.sides)
 print(p1.nsides)
