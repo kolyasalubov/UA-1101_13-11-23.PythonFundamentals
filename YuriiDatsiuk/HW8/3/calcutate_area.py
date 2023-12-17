@@ -10,6 +10,3 @@ def calculate_area_triangle():
 def calculate_area_circle():
     radius = float(input('radius 1 is '))
     return math.pi * math.pow(radius, 2)
-
-
-
