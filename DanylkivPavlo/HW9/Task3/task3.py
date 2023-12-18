@@ -1,32 +1,29 @@
-def get_weather(city):
-    from pyowm import OWM
+import tkinter as tk
+from tkinter import font
+from pyowm import OWM
 
-    API_KEY = 'ef2206ff5da67de63306d0b143e20872'
-    # ---------- FREE API KEY examples ---------------------
+API_KEY = 'ef2206ff5da67de63306d0b143e20872'
 
-    owm = OWM(API_KEY)
-    mgr = owm.weather_manager()
+owm = OWM(API_KEY)
+mgr = owm.weather_manager()
 
-    # Search for current weather in London (Great Britain) and get details
+def get_weather():
+    city = entry_field.get()
     observation = mgr.weather_at_place(city)
     w = observation.weather
 
-    labeltext = (f'''
-                overall: {w.detailed_status}
-                wind speed {w.wind().get('speed')}
-                humidity {w.humidity} %
-                temperature {w.temperature('celsius').get('temp')} C
-                {'rain' if w.rain else 'no rain'}
-                clouds {w.clouds} %''')
+    result_text = f"Weather in {city}:\n"
+    result_text += f"Status: {w.detailed_status}\n"
+    result_text += f"Wind: {w.wind()}\n"
+    result_text += f"Humidity: {w.humidity}%\n"
+    result_text += f"Temperature: {w.temperature('celsius')['temp']}°C\n"
+    result_text += f"Clouds: {w.clouds}%"
 
-    label.config(text=labeltext, font=("Arial", 12, "normal"), justify="left")
-    return w.detailed_status
-
-import tkinter as tk
-from tkinter import font
+    label['text'] = result_text
 
 HEIGHT = 350
 WIDTH = 450
+
 root = tk.Tk()
 
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
@@ -43,7 +40,7 @@ button = tk.Button(frame,
                    text="Get Weather",
                    bg="gray", fg="white",
                    font=('Courier', 8),
-                   command=lambda : get_weather(entry_field.get()))
+                   command=get_weather)
 button.place(relx=0.7, rely=0, relwidth=0.3, relheight=1)
 
 lower_frame = tk.Frame(root, bg='gold', bd=10)
@@ -53,4 +50,3 @@ label = tk.Label(lower_frame, font=('Courier', 14))
 label.place(relx=0, rely=0, relwidth=1, relheight=1)
 
 root.mainloop()
-
