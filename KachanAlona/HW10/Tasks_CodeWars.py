@@ -20,7 +20,13 @@ class Ghost(object):
 # III. Basic-subclasses-Adam-and-Eve
 
 # IV. Classy-classes
-
+class Person:
+    """Your task is to complete this Class, the Person class has been created. You must fill in the Constructor method
+     to accept a name as string and an age as number, complete the get Info property and get
+     Info method/Info getter which should return"""
+    def __init__(self, name, age):
+        if type(name) is str and type(age) is int:
+            self.info=f'{name}s age is {age}'
 
 # V. Building Spheres
 class Sphere(object):
