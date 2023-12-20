@@ -4,7 +4,9 @@ def calculate_characters(word: str)->dict:
     Returns a dictionary consisting of a character and number of it's occurances.
     """
     temporary_dict = {}
-    for i in word:
+    for i in word: #remove repeats
+        if i in temporary_dict:
+            continue
         temporary_dict[i] = word.count(i)
     return temporary_dict
 
