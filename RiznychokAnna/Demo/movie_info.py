@@ -1,8 +1,8 @@
 import logging
 
 from movie_requests import MovieRequests
-from utils.utils import format_str, setup_logs
-from utils.constants import Emojis
+from RiznychokAnna.Demo.utils.utils import format_str, setup_logs
+from RiznychokAnna.Demo.utils.constants import Emojis
 
 setup_logs()
 

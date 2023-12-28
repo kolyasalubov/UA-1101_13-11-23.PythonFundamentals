@@ -3,11 +3,11 @@ import logging
 import telebot
 from telebot import types
 
-from configuration.configurator import Config
+from RiznychokAnna.Demo.configuration.configurator import Config
 from movie_info import MovieInfo
 
-from utils.constants import Emojis
-from utils.utils import setup_logs
+from RiznychokAnna.Demo.utils.constants import Emojis
+from RiznychokAnna.Demo.utils.utils import setup_logs
 
 
 if __name__ == '__main__':

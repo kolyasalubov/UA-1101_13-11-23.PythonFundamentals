@@ -1,8 +1,8 @@
 import requests
 import logging
 
-from configuration.configurator import Config
-from utils.utils import setup_logs
+from RiznychokAnna.Demo.configuration.configurator import Config
+from RiznychokAnna.Demo.utils.utils import setup_logs
 
 setup_logs()
 
