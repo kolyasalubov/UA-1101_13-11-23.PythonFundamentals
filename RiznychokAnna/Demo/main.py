@@ -47,7 +47,7 @@ if __name__ == '__main__':
                            photo=message_to_send[0],
                            caption=message_to_send[1],
                            parse_mode="MarkdownV2")
-            logging.info(f'[BOT]: Successfully send for user the information about movies')
+            logging.info(f'[BOT]: Successfully send information about movies to the user')
 
 
     # InlineKeyboard
