@@ -49,27 +49,4 @@ if __name__ == '__main__':
                            parse_mode="MarkdownV2")
             logging.info(f'[BOT]: Successfully send information about movies to the user')
 
-
-    # InlineKeyboard
-    # ------------------
-    # @bot.message_handler(func=lambda message: message.text)
-    # def process_number(message):
-    #     movies_list = m.name_movie(message.text)
-    #     keyboard = types.InlineKeyboardMarkup()
-    #
-    #     for movie in movies_list:
-    #         keyboard.add(types.InlineKeyboardButton(movie, callback_data=movie))
-    #
-    #     bot.send_message(message.chat.id, 'Choose an option:', reply_markup=keyboard)
-    #
-    # # Define the callback query handler
-    # @bot.callback_query_handler(func=lambda call: True)
-    # def button_click(call):
-    #     mes = m.chosen_film_info(call.data)
-    #
-    #     bot.send_photo(chat_id=call.message.chat.id,
-    #                    photo=mes[0],
-    #                    caption=mes[1],
-    #                    parse_mode="MarkdownV2")
-
     bot.polling(none_stop=True, interval=0)
