@@ -1,4 +1,0 @@
- NAME1 = "folder/name/table"
- NAME2 = r"folder/name/table" 
- print(NAME1)
- print(NAME2)
