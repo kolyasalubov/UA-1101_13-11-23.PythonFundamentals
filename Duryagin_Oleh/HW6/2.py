@@ -6,5 +6,3 @@ def login_funk(login_name: str) -> bool:
 while login_funk(input("Enter login:")) != 1:
     print("Wrong login name")
 print("Greet")
-
-
