@@ -1,11 +1,9 @@
-lst_of_integer = [1,2,3,4,5,6]
-lst_of_float = []
+fibonacci_till_to = int(input("Enter number, Fibonacci numbers up to: "))
+i = 1
+fibonacci_numbers = [0, 1]
+while i <= fibonacci_till_to:
+    fibonacci_numbers.append(fibonacci_numbers[i] + fibonacci_numbers[i-1])
+    i += 1
 
-for i in lst_of_integer:
-    lst_of_float.append(float(i))
-print(f"List of elements floating type: ",lst_of_float)
-print(f"List of elements integer type: ",lst_of_integer)
-
-
-
+print(fibonacci_numbers)
 
