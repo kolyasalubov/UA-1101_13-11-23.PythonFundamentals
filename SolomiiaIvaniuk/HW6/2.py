@@ -1,11 +1,14 @@
-lst_of_integer = [1,2,3,4,5,6]
-lst_of_float = []
+while True:
+    user_login = input("Enter your login: ")
+    
+    if user_login == "First":
+        print("Hello, user! Welcome")
+        break 
+    else:
+        print("Incorrect login, try again.")
+   
 
-for i in lst_of_integer:
-    lst_of_float.append(float(i))
-print(f"List of elements floating type: ",lst_of_float)
-print(f"List of elements integer type: ",lst_of_integer)
 
 
 
-
+        
