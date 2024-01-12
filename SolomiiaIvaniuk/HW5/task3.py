@@ -1,9 +1,7 @@
-fibonacci_till_to = int(input("Enter number, Fibonacci numbers up to: "))
-i = 1
-fibonacci_numbers = [0, 1]
-while i <= fibonacci_till_to:
-    fibonacci_numbers.append(fibonacci_numbers[i] + fibonacci_numbers[i-1])
-    i += 1
+number = int(input("Enter your number to calculate the factorial:"))
+factorial = 1
+for i in range(1, number + 1):
+    factorial *= i
 
-print(fibonacci_numbers)
+print(f'The factorial of {number} is {factorial}' if number >= 0 else f'The factorial of {number} is not defined')
 
