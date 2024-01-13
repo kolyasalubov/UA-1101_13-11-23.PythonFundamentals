@@ -5,7 +5,6 @@ def calculator_characters(characters):
     return user_dict
 
 
-
 user = input("Enter your wordjr sentence: ")
 calculator_characters(user)
 print(calculator_characters(user.replace(" ", "")))
