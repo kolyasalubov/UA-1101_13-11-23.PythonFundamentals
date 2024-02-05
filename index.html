@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Погода</title>
+  <style>
+      body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          overflow: hidden;
+      }
+
+      #video-background {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: -1;
+      }
+
+      #weather-container {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          position: relative;
+          z-index: 1;
+      }
+
+      #city-input {
+          padding: 10px;
+          width: 200px;
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+
+      #get-weather-btn {
+          padding: 10px;
+          background-color: #4caf50;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+      }
+
+      #weather-output {
+          margin-top: 20px;
+          font-size: 18px;
+      }
+  </style>
 </head>
 <body>
-    
+    <video id="video-background" playsinline autoplay muted loop>
+        <source src="https://media.istockphoto.com/id/1353370109/ru/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/ld-%D0%BA%D0%B0%D0%BF%D0%BB%D1%8F-%D0%B2%D0%BE%D0%B4%D1%8B-%D0%BF%D0%B0%D0%B4%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%B8%D0%B7-%D0%BB%D0%B8%D1%81%D1%82%D0%B0-%D0%BF%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0.mp4?s=mp4-640x640-is&k=20&c=xfhBOC29TMrgPVFSG9rAt2thnDIoPNxJDNVINK4c_Fo=" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="overlay" class="overlay">
+        <div id="name-input-container">
+            <label for="user-name">Введіть ваше ім'я:</label>
+            <input type="text" id="user-name" placeholder="Ваше ім'я">
+            <button onclick="continueToWeather()">Продовжити</button>
+        </div>
+    </div>
+
+    <div id="weather-container">
+      <h2>Отримати погоду</h2>
+      <input type="text" id="city-input" placeholder="Введіть місто">
+      <button id="get-weather-btn" onclick="getWeather()">Отримати погоду
+      </button>
+      <div id="weather-output"></div>
+    </div>
+
+    <div id="success-message" style="display: none;">
+        <p id="success-text">Успіхів, <span id="user-name-display"></span>!</p>
+    </div>
+
+    <script>
+        function getWeather() {
+            const cityInput = document.getElementById('city-input');
+            const weatherOutput = document.getElementById('weather-output');
+
+            const apiKey = '1dc452785a0268b271d3610e4deb0252';
+            const city = cityInput.value;
+
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
+                .then(response => response.json())
+                .then(data => {
+                    const temperature = Math.round(data.main.temp - 273.15);
+                    const humidity = data.main.humidity;
+                    const description = data.weather[0].description;
+                    const sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
+                    const sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString();
+
+                    weatherOutput.innerHTML = `
+                        <p>Погода в ${city}:</p>
+                        <ul>
+                            <li>Температура: ${temperature}°C</li>
+                            <li>Вологість: ${humidity}%</li>
+                            <li>Стан погоди: ${description}</li>
+                            <li>Схід сонця: ${sunrise}</li>
+                            <li>Захід сонця: ${sunset}</li>
+                        </ul>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Помилка отримання погоди', error);
+                    weatherOutput.innerHTML = 'Помилка отримання погоди. Спробуйте ще раз.';
+                });
+        }
+    </script>
+  
+    <script>
+        function continueToWeather() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.filter = 'blur(10px)';
+
+            const userNameInput = document.getElementById('user-name');
+            const userNameDisplay = document.getElementById('user-name-display');
+
+            const userName = userNameInput.value;
+            userNameDisplay.innerText = userName;
+
+            overlay.style.display = 'none';
+            document.getElementById('success-message').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
